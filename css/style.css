@@ -1,0 +1,44 @@
+main {
+    font-family: monospace;
+}
+
+.title {
+    background-image: url('../images/wallpaper.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    height: 900px;
+}
+
+.title_name{
+    font-size: 56px;
+    padding-top: 350px;
+    padding-bottom: 50px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.title_description{
+    font-size: 32px;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.experience_title{
+    text-align: center;
+    font-size: 32px;
+    padding:30px;
+}
+
+.experience_subtitle{
+    font-size: 24px;
+}
+
+.experience_intelbras{
+    font-size: 16px;
+}
+
+.project_title {
+    text-align: center;
+    font-size: 32px;
+    padding: 30px;
+}
