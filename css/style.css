@@ -7,6 +7,7 @@ main {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    background-position: center;
     text-align: center;
     height: 900px;
 }
@@ -23,22 +24,81 @@ main {
     text-shadow: black 0.1em 0.1em 0.2em;
 }
 
+.aboutme_title{
+    text-align: center;
+    font-size: 32px;
+    padding: 10px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.aboutme_description{
+    font-size: 16px;
+    text-align: center;
+}
+
 .experience_title{
     text-align: center;
     font-size: 32px;
-    padding:30px;
+    padding: 10px;
+    font-weight: bold; 
+    margin-top: 40px;
 }
 
 .experience_subtitle{
     font-size: 24px;
+    text-align: center;
+    padding: 20px;
+    text-decoration: underline;
 }
 
 .experience_intelbras{
     font-size: 16px;
+    text-align: center;
 }
 
-.project_title {
+.experience_intelbras li{
+    padding: 5px;
+}
+
+.projects_title {
     text-align: center;
     font-size: 32px;
-    padding: 30px;
+    padding: 10px;
+    font-weight: bold; 
+    margin-top: 40px;
+}
+
+.projects_subtitle{
+    font-size: 24px;
+    text-align: center;
+    text-decoration: underline;
+    padding: 20px;
+}
+
+.projects_myth{
+    font-size: 16px;
+    text-align: center;
+}
+
+.projects_myth li{
+    padding: 5px;
+}
+
+.projects_books{
+    font-size: 16px;
+    text-align: center;
+}
+
+.projects_books li{
+    padding: 5px;
+}
+
+.projects_form{
+    font-size: 16px;
+    text-align: center;
+}
+
+.projects_form li{
+    padding: 5px;
 }
