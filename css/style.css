@@ -25,12 +25,15 @@ main {
     text-shadow: black 0.1em 0.1em 0.2em;
 }
 
+.content{
+    background-color: #423F3E;
+}
+
 .aboutme_title{
     text-align: center;
     font-size: 32px;
-    padding: 10px;
+    padding: 30px;
     font-weight: bold;
-    margin-top: 20px;
 }
 
 .aboutme_description{
