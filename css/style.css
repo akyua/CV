@@ -46,6 +46,9 @@ main {
 .content_description{
     font-size: 16px;
     text-align: center;
+}
+
+.aboutme_description{
     padding-top: 20px;
 }
 
