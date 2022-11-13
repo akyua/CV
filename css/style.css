@@ -29,31 +29,24 @@ main {
     background-color: #423F3E;
 }
 
-.aboutme_title{
+.content_title{
     text-align: center;
     font-size: 32px;
-    padding: 30px;
+    padding-top: 40px;
     font-weight: bold;
 }
 
-.aboutme_description{
-    font-size: 16px;
-    text-align: center;
-}
-
-.experience_title{
-    text-align: center;
-    font-size: 32px;
-    padding: 10px;
-    font-weight: bold; 
-    margin-top: 40px;
-}
-
-.experience_subtitle{
+.content_subtitle{
     font-size: 24px;
     text-align: center;
     padding: 20px;
     text-decoration: underline;
+}
+
+.content_description{
+    font-size: 16px;
+    text-align: center;
+    padding-top: 20px;
 }
 
 .experience_intelbras{
@@ -63,21 +56,6 @@ main {
 
 .experience_intelbras li{
     padding: 5px;
-}
-
-.projects_title {
-    text-align: center;
-    font-size: 32px;
-    padding: 10px;
-    font-weight: bold; 
-    margin-top: 40px;
-}
-
-.projects_subtitle{
-    font-size: 24px;
-    text-align: center;
-    text-decoration: underline;
-    padding: 20px;
 }
 
 .projects_myth{
