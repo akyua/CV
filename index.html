@@ -11,20 +11,34 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
+<header>
+    <!-- Menu -->
+    <nav class="menu">
+        <ul class="content_list" id="menu">
+            <li><a href="#title" class="content_menu">Início</a></li>
+            <li><a href="#aboutme" class="content_menu">Sobre mim</a></li>
+            <li><a href="#experience" class="content_menu">Experiencia</a></li>
+            <li><a href="#projects" class="content_menu">Projetos</a></li>
+            <li><a href="#skills" class="content_menu">Habilidades</a></li>
+        </ul>
+    </nav>
+    <script type="text/javascript" src="header.js"></script>
+    <!-- Fim Menu -->
+</header>
 <body>
     <main>
-        <div class="title">
+        <div id="title">
             <h1 class="title_name">Eu sou Gabriel</h1>
-            <p class="title_description">Um estudante iniciante de Programação</p>
+            <p class="title_description pisca">Um estudante iniciante de Programação</p>
         </div>
         <div class="content">
-            <div class="aboutme">
+            <section id="aboutme">
                 <h2 class="content_title">Sobre mim</h2>
                 <ul class="content_description aboutme_description">
                     <li>Me chamo Gabriel, atualmente estou fazendo faculdade de Ciências da Computação na Universidade Estácio de Sá em Barreiros, São José - SC de maneira semipresencial/hibrida.</li>
                 </ul>
-            </div>
-            <section class="experience">
+            </section>
+            <section id="experience">
                 <h2 class="content_title">Experiência Profissional</h2>
                 <ul class="experience_list">
                     <li class="content_subtitle">Intelbras:</li>
@@ -35,7 +49,7 @@
                     </ul>
                 </ul>
             </section>
-            <section class="projects">
+            <section id="projects">
                 <h2 class="content_title">Projetos Pessoais</h2>
                 <ul class="projects_list">
                     <li class="content_subtitle">MYTH</li>
@@ -58,7 +72,7 @@
                     </ul>
                 </ul>
             </section>
-            <section class="skills">
+            <section id="skills">
                 <h2 class="content_title">Habilidades</h2>
                 <ul class="skills_list">
                     <ul class="skills_html">
