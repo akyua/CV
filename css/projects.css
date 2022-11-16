@@ -1,0 +1,22 @@
+#projects{
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.projects_list{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+.projects_description{
+    font-size: 20px;
+    max-width: 1064px;
+    margin-left: 10px;
+    text-align: center;
+
+}
+
+.projects_description li{
+    padding: 5px;
+}

@@ -1,0 +1,18 @@
+#skills{
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background-color: rgb(22, 22, 22);
+}
+
+
+.content_description{
+    font-size: 20px;
+    text-align: center;
+}
+
+.skills_list{
+    display: flex;
+    flex-direction: row;
+    max-width: 1900px;
+    margin: 0 auto;
+}
