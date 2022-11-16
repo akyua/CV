@@ -10,14 +10,20 @@ footer {
 
 .footer_contato{
     color: white;
-    font-family: 'Quando', serif;
-    font-size: 18px;
-    padding: 10px 0;
+    font-family: monospace;
+    font-size: 20px;
 }
+
 .footer_contato p{
-    padding: 5px;
+    padding: 10px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
 }
 
 .icon{
-    max-width: 60px;
+    max-width: 70px;
+    padding: 0 20px;
 }
