@@ -10,6 +10,12 @@
     <link rel='favicon' type='image/x-icon' href='images/faicon.png'/>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/aboutme.css">
+    <link rel="stylesheet" href="css/experience.css">
+    <link rel="stylesheet" href="css/projects.css">
+    <link rel="stylesheet" href="css/skills.css">
+
 </head>
 <header>
     <!-- Menu -->
@@ -27,10 +33,10 @@
 </header>
 <body>
     <main>
-        <div id="title">
+        <section id="title">
             <h1 class="title_name">Eu sou Gabriel</h1>
             <p class="title_description pisca">Um estudante iniciante de Programação</p>
-        </div>
+        </section>
         <div class="content">
             <section id="aboutme">
                 <h2 class="content_title">Sobre mim</h2>
@@ -52,24 +58,30 @@
             <section id="projects">
                 <h2 class="content_title">Projetos Pessoais</h2>
                 <ul class="projects_list">
-                    <li class="content_subtitle">MYTH</li>
-                    <ul class="projects_myth">
-                        <li>Repositório: <a href="https://github.com/akyua/MYTH-LandingPage">Projeto MYTH</a></li>
-                        <li>Tecnologias utilizadas: HTML, CSS</li>
-                        <li>O projeto é uma landing page, de um site que pretendo desenvolver no futuro, esse projeto foi feito principalmente para focar na prática e teste de conhecimento, onde pretendo aperfeiçoar essa página conforme minha evolução.</li>
-                    </ul>
-                    <li class="content_subtitle">Alura Books</li>
-                    <ul class="projects_books">
-                        <li>Repositório: <a href="https://github.com/akyua/ProjectAluraBooks">Projeto Books</a></li>
-                        <li>Tecnologias utilizadas: HTML, CSS, SwiperJS</li>
-                        <li>Um projeto que fiz pelo curso da Alura, onde era a criação de um site que utiliza o conceito sobre mobile-first, juntamente é claro com o design responsivo.</li>
-                    </ul>
-                    <li class="content_subtitle">Form</li>
-                    <ul class="projects_form">
-                        <li>Repositório: <a href="https://github.com/akyua/Project-Form">Projeto Formulário</a></li>
-                        <li>Tecnologias utilizadas: HTML, CSS</li>
-                        <li>Esse projeto foi focando no desenvolvimento de um formulário simples, porém que tivesse todas as partes necessárias de um formulário.</li>
-                    </ul>
+                    <div class="projects_item">
+                        <li class="content_subtitle">MYTH</li>
+                        <ul class="projects_description">
+                            <li>Repositório: <a href="https://github.com/akyua/MYTH-LandingPage">Projeto MYTH</a></li>
+                            <li>Tecnologias utilizadas: HTML, CSS</li>
+                            <li>O projeto é uma landing page, de um site que pretendo desenvolver no futuro, esse projeto foi feito principalmente para focar na prática e teste de conhecimento, onde pretendo aperfeiçoar essa página conforme minha evolução.</li>
+                        </ul>
+                    </div>
+                    <div class="projects_item">
+                        <li class="content_subtitle">Alura Books</li>
+                        <ul class="projects_description">
+                            <li>Repositório: <a href="https://github.com/akyua/ProjectAluraBooks">Projeto Books</a></li>
+                            <li>Tecnologias utilizadas: HTML, CSS, SwiperJS</li>
+                            <li>Um projeto que fiz pelo curso da Alura, onde era a criação de um site que utiliza o conceito sobre mobile-first, juntamente é claro com o design responsivo.</li>
+                        </ul>
+                    </div>
+                    <div class="projects_item">
+                        <li class="content_subtitle">Form</li>
+                        <ul class="projects_description"">
+                            <li>Repositório: <a href="https://github.com/akyua/Project-Form">Projeto Formulário</a></li>
+                            <li>Tecnologias utilizadas: HTML, CSS</li>
+                            <li>Esse projeto foi focando no desenvolvimento de um formulário simples, porém que tivesse todas as partes necessárias de um formulário.</li>
+                        </ul>
+                    </div>
                 </ul>
             </section>
             <section id="skills">
