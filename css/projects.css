@@ -8,7 +8,6 @@
 .projects_list{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 5%;
     row-gap: 10%;
     padding-top: 40px;
 }
@@ -39,6 +38,9 @@
 
 .projects_text {
     max-width: 600px;
-    margin-left: 120px;
+    margin-left: 170px;
 }
-  
+
+.projects_subtitle{
+    margin-right: 20px;
+}
