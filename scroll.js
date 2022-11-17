@@ -1,5 +1,9 @@
 sr = ScrollReveal({ reset:true});
-ScrollReveal({ distance: '15px' });
+ScrollReveal({    
+    viewOffset: {
+        top: 0
+    }
+});
 sr.reveal('.title_description', {duration : 3000, origin: 'right'})
 sr.reveal('.aboutme_title', {duration : 3000, origin: 'left'})
 sr.reveal('.aboutme_description', {duration : 3000, origin: 'left'})

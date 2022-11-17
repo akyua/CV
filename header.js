@@ -1,5 +1,6 @@
 var lastScrollTop = 0, scrollPx = 0, accumulativeScroll = 0;
 menu = document.getElementById("menu");
+
 window.addEventListener("scroll", function(){
     var scrollTop = window.pageYOffset;
     if (scrollTop > lastScrollTop) {
