@@ -44,3 +44,24 @@
 .projects_subtitle{
     margin-right: 20px;
 }
+
+@media screen and (max-width: 1440px) {
+
+.projects_list{
+    display: grid;
+    grid-template-columns: 1fr;
+    }
+
+#projects{
+    padding-bottom: 800px;
+}
+
+.projects_text{
+    margin: auto;
+}
+
+
+.projects_description{
+    margin: auto;
+}
+}

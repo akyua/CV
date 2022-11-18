@@ -24,3 +24,16 @@
     text-align: center;
     min-width: 300px;
 }
+
+@media screen and (max-width: 1440px) {
+
+.skills_list{
+    grid-template-columns: 1fr;
+    margin: auto;
+    gap: 5%;
+
+}
+#skills{
+    padding-bottom: 400px;
+}
+}
