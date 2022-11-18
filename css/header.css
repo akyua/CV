@@ -38,3 +38,19 @@
 }
 
 /* barra de navegação terminada */
+
+
+@media screen and (max-width: 550px) {
+    .content_menu{
+        font-size: 12px;
+    }
+
+    .content_list{
+        padding: 15px;
+        justify-content: none;
+    }
+
+    .content_menu{
+        margin-right: 20px;
+    }
+}
