@@ -37,7 +37,7 @@
 
 <div align="center">
 
-![gagahm2](https://user-images.githubusercontent.com/75745796/202786937-33712a75-df39-40c7-81a7-788c2979151c.png)
+![mobile](https://user-images.githubusercontent.com/75745796/203414267-6cd335b7-7ade-45ff-81ae-fc066e209b8b.png)
 
 ![gagahm](https://user-images.githubusercontent.com/75745796/202786934-87294c4e-420c-44dd-a68b-a88f695c7d05.png)
 
