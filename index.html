@@ -19,20 +19,22 @@
     <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body>
-    <header>
-        <!-- Menu -->
-        <nav class="menu">
-            <ul class="content_list" id="menu">
-                <li><a href="#title" class="content_menu debug">Início</a></li>
-                <li><a href="#aboutme" class="content_menu">Sobre mim</a></li>
-                <li><a href="#experience" class="content_menu">Experiencia</a></li>
-                <li><a href="#projects" class="content_menu">Projetos</a></li>
-                <li><a href="#skills" class="content_menu">Habilidades</a></li>
-            </ul>
-        </nav>
+   <header id="header">
+            <nav id="nav">
+                <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">Menu
+                <span id="hamburger"></span>
+                </button>
+                <ul id="menu" role="menu">
+                    <li><a href="#title" class="content_menu">Início</a></li>
+                    <li><a href="#aboutme" class="content_menu">Sobre mim</a></li>
+                    <li><a href="#experience" class="content_menu">Experiencia</a></li>
+                    <li><a href="#projects" class="content_menu">Projetos</a></li>
+                    <li><a href="#skills" class="content_menu">Habilidades</a></li>
+                </ul>
+            </nav>
+        </header>
         <script type="text/javascript" src="header.js"></script>
         <!-- Fim Menu -->
-    </header>
     <main>
         <section id="title">
             <h1 class="title_name">Eu sou Gabriel</h1>
