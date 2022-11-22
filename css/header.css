@@ -1,11 +1,15 @@
 /* criando barra de navegação*/
+nav{
+    width: 50%;
+}
+
 .content_list{
     width: 100%;
     display: flex;
     z-index: 2;
     top: 0;
-    flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
     padding: 30px;
     background: rgba(196, 196, 196, 0.11);
     backdrop-filter: blur(10px);
