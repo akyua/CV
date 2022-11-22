@@ -103,7 +103,7 @@ a:hover {
     overflow-y: hidden;
   }
   #nav.active #menu {
-    height: calc(115vh - 70px);
+    height: calc(130vh - 70px);
     visibility: visible;
     overflow-y: auto;
   }
