@@ -7,6 +7,10 @@ body{
     background-color: rgb(22, 22, 22) ;
 }
 
+img[src="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"] {
+    display: none;
+}
+
 #title {
     background-image: url('../images/wallp.gif');
     background-repeat: no-repeat;
@@ -58,6 +62,7 @@ body{
     padding: 20px;
     text-decoration: underline;
 }
+
 
 @media (max-width: 600px) {
     .title_name{

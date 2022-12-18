@@ -20,3 +20,9 @@
 .aboutme_text{
     padding-top: 10px;
 }
+
+@media (max-width: 600px) {
+    .aboutme_description{
+        margin: 0 10px;
+    }
+}
